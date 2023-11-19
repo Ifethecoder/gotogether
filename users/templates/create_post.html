@@ -1,0 +1,18 @@
+{% extends "master.html" %}
+
+{% block title %}
+  Create Post
+{% endblock %}
+
+{% block content %}
+<section class = "form">
+    <h1>Where are you going today?</h1>
+    <form method = "POST">
+    {% csrf_token %}{{form.as_p}}
+    <p>Fill date and time field in the form MM/DD/YYYY HH:MM</p>
+    <div>
+      <input type="submit" value="Post">
+    </div>
+</section>
+</form>
+  {% endblock %}

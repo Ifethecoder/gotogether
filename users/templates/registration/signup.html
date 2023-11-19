@@ -1,0 +1,17 @@
+{% extends "master.html" %}
+{% block title %}
+  Go Together M27
+{% endblock %}
+
+
+{% block content %}
+
+<form method = "POST">
+{% csrf_token %}
+{{form.as_p}}
+<div>
+  <input type="submit" value="Log in">
+</div>
+</form>
+  
+{% endblock %}

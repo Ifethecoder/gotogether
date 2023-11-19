@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="{% static 'globalstyle.css' %}">
+<head>
+  <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+
+  <div class="nav">
+    <ul>
+      {% if user.is_authenticated %}
+      <li>
+        <a href="/logout">Logout</a>
+      </li>
+      {% else %}
+      <li>
+        <a href="/sign-up">Sign Up</a>
+      </li>
+      <li>
+        <a href="/login">Login</a>
+      </li>
+      {% endif %}
+    </ul>
+  </div>
+
+{% block content %}
+{% endblock %}
+
+</body>
+</html>

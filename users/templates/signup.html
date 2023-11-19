@@ -1,0 +1,18 @@
+{% extends "master.html" %}
+
+{% block title %}
+  Sign Up
+{% endblock %}
+
+{% block content %}
+<section class="form">
+  <h3>User Sign Up</h3>
+  <form method = "POST">
+  {% csrf_token %}{{form.as_p}}
+  <div>
+    <input type="submit" value="Sign up">
+  </div>
+  </form>
+</section>
+
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends "master.html" %}
+{% block title %}
+  Go Together M27
+{% endblock %}
+
+
+{% block content %}
+<section class="form">
+  <h3>User Log In</h3>
+  <form method = "POST">
+  {% csrf_token %}
+  {{form.as_p}}
+  <div>
+    <input type="submit" value="Log in">
+  </div>
+  </form>
+</section>
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "master.html" %}
+{% block title %}
+  Go Together M27
+{% endblock %}
+
+
+{% block content %}
+<section class="postsection">
+<h1>Hey {{user.username}}. See where other M27's are going and go together &#128540; !</h1>
+{% for i in posts %}
+<div class = "post">
+  <p>{{i.author}} is going from {{i.current_location}} to {{i.going_to}} by {{i.by_this_date_and_time}} <a href="/details/{{i.id}}">Contact {{i.author}}</a></p>
+</div>
+{% endfor %}
+<p>Click <a href="/create-post">here</a> to let other M27's know where you are going</p>
+</section>
+{% endblock %}

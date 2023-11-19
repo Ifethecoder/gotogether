@@ -1,0 +1,15 @@
+{% extends "master.html" %}
+
+{% block title %}
+  Login
+{% endblock %}
+
+{% block content %}
+<h3>User Log In</h3>
+<form method = "POST">
+{% csrf_token %}{{form.as_p}}
+<div>
+  <input type="submit" value="Log in">
+</div>
+</form>
+  {% endblock %}
