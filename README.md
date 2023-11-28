@@ -1,7 +1,7 @@
 # gotogether
 Problem: Students in my class,  Minerva University Class of 2027, flood the class group chat to ask if anyone is going to the same location they are going to, so they can together.
 
-Solution: I have developed a website that displays information about who is going to a place from a particular location and by what time. Students can fill a form indicating their current location, intended destination and intended departure time. The content of the form is displayed on a web page for other students to see. Information from the form is stored in a database, rendered on the server side, and displayed using HTML on the home page. A student can view the website and get the contact of someone going to a place they also want to go to, and they both can go together. Users must be logged in to fill the form or view information on the website.
+Solution: I have developed a web application that displays information about who is going to a place from a particular location and by what time. Students can fill a form indicating their current location, intended destination and intended departure time. The content of the form is displayed on a web page for other students to see. Information from the form is stored in a database, rendered on the server side, and displayed using HTML on the home page. A student can view the website and get the contact of someone going to a place they also want to go to, and they both can go together. Users must be logged in to fill the form or view information on the website.
 
 Tools:
 
