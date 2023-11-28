@@ -1,7 +1,7 @@
 # Go Together Web Application
 Welcome to the Go Together web application! This project aims to connect students going to the same destination by providing a platform to share plans and contact information. Users can submit their current location, intended destination, and departure time through a user-friendly form. The submitted data is stored in a database, rendered on the server side, and displayed on the home page using HTML.
 
-# Features:
+# Features
 
 # Outing Plans Display:
 
@@ -29,11 +29,11 @@ The submitted information is securely stored in a database for future reference.
 
 The server dynamically renders the content on the home page, providing an up-to-date display of outing plans.
 
-# Connecting Travelers:
+# Connecting Students:
 
 Users can browse the website to find fellow students going to the same destination and connect with them for a shared journey.
 
-# Usage:
+# Usage
 
 # Log In:
 
@@ -51,7 +51,7 @@ Users can explore the home page to view outing plans submitted by other students
 
 Find someone heading to the same destination and plan your journey together.
 
-# Tools:
+# Tools
 
 Front end: HTML, CSS
 
