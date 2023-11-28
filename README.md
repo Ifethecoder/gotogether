@@ -1,54 +1,43 @@
 # Go Together Web Application
-Welcome to the Go Together web application! This project aims to connect students going to the same destination by providing a platform to share plans and contact information. Users can submit their current location, intended destination, and departure time through a user-friendly form. The submitted data is stored in a database, rendered on the server side, and displayed on the home page using HTML.
+Welcome to the Go Together web application! This project aims to connect students going to the same destination by providing a platform to share outing plans and contact information. Users can submit their current location, intended destination, and departure time through a user-friendly form. The submitted data is stored in a database, rendered on the server side, and displayed on the home page using HTML.
 
 # Features
 
 Outing Plans Display:
-
 Submitted outing plans are dynamically displayed on the web page, allowing students to see who is going to a particular destination and when.
 
 Connect with Other Students:
-
 Students can use the website to find others going to the same destination. The platform facilitates communication by providing contact information.
 
 User Authentication:
-
-To ensure the security and authenticity of the data, users must be logged in to access the form submission feature and view travel information.
+To ensure the security and authenticity of the data, users must be logged in to access the form submission feature and view outing information.
 
 # How It Works
 
 User Submission:
-
 Students fill out a form with details about their current location, intended destination, and departure time.
 
 Data Storage:
-
 The submitted information is securely stored in a database for future reference.
 
 Server-Side Rendering:
-
 The server dynamically renders the content on the home page, providing an up-to-date display of outing plans.
 
 Connecting Students:
-
 Users can browse the website to find fellow students going to the same destination and connect with them for a shared journey.
 
 # Usage
 
 Log In:
-
 Users must log in to the platform to fill out form or browse information.
 
 Fill Out the Form:
-
 Once logged in, students can submit their outing plans by filling out the provided form.
 
-Browse Travel Information:
-
+Browse Outing Information:
 Users can explore the home page to view outing plans submitted by other students.
 
 Connect with Other Students:
-
 Find someone heading to the same destination and plan your journey together.
 
 # Tools
